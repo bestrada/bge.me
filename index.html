@@ -1,7 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><title>hello world</title></head>
+<head>
+  <meta charset="utf-8">
+
+  <title>Bryan Estrada</title>
+  <meta name="description" content="hello world">
+  <meta name="author" content="Bryan Estrada">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <style id="reset">
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  /* Remove default padding */
+  ul[class],
+  ol[class] {
+    padding: 0;
+  }
+
+  /* Remove default margin */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul[class],
+  ol[class],
+  li,
+  figure,
+  figcaption,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+
+  /* Set core body defaults */
+  body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+
+  /* Remove list styles on ul, ol elements with a class attribute */
+  ul[class],
+  ol[class] {
+    list-style: none;
+  }
+
+  /* A elements that don't have a class get default styles */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+
+  /* Make images easier to work with */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  /* Natural flow and rhythm in articles by default */
+  article > * + * {
+    margin-top: 1em;
+  }
+
+  /* Inherit fonts for inputs and buttons */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  /* Remove all animations and transitions for people that prefer not to see them */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  </style>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');</style>
+  <script src="//kit.fontawesome.com/56c7aaceba.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-  <h1>Hello World</h1>
+  <p class="profile"><img src="/img/profile.jpg" ></p>
+  <h1 class="profile">@bestrada</h1>
+
+  <footer class="social">
+    <a href="https://www.facebook.com/bestrada" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://github.com/bestrada" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/bestrada" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/bestrad/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/atynre" target="_blank"><i class="fab fa-twitter"></i></a>
+  </footer>
 </body>
 </html>

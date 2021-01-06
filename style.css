@@ -1,0 +1,32 @@
+body {
+  background-image: url('/img/nathan-ziemanski-CVj5ctmFw38-unsplash.jpg');
+  background-size: cover;
+  padding : 96px 12px 24px 12px;
+  font-family: 'Lato', sans-serif;
+  color:#f0f8ff;
+}
+
+a, a:link, a:visited, a:hover {
+  color: inherit;
+}
+
+.profile {
+  text-align: center;
+  margin : 12px 0px 32px 0px;
+}
+.profile img {
+  width:128px;
+  display:inline-block;
+  border-radius: 128px;
+}
+
+.social {
+  position: fixed;
+  bottom: 0px; left: 0px; right: 0px;
+  padding-bottom:128px;
+  text-align: center;
+  letter-spacing:8px;
+}
+.social .fab {
+  font-size: 32px;
+}
